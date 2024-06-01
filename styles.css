@@ -1,0 +1,75 @@
+/* Estilos Gerais */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5DC; /* Bege */
+}
+
+h1{
+    color: aqua;
+    font-size: larger;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #FFF; /* Branco */
+    color: #333; /* Cor de texto escura */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333; /* Cor de texto escura */
+    text-decoration: none;
+}
+
+footer {
+    background-color: #FFF; /* Branco */
+    color: #333; /* Cor de texto escura */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos Específicos */
+
+.destaque {
+    padding: 20px;
+    text-align: center;
+}
+
+.destaque h2 {
+    margin-bottom: 20px;
+}
+
+.main-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+} 
+
+.main-image {
+    max-width: 30%; /* Tamanho menor */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centralização horizontal */
+    border-radius: 10px;
+}
